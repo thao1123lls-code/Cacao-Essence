@@ -300,9 +300,9 @@ Tài khoản này chỉ dùng để xem trang quản trị của website demo.
 
 | | |
 |---|---|
-| Địa chỉ | [địa chỉ web]/admin/login |
-| Email | [điền email tài khoản demo] |
-| Mật khẩu | [điền mật khẩu tài khoản demo] |
+| Địa chỉ | http://localhost:3000/admin/login |
+| Email | thao1.123lls@gmail.com |
+| Mật khẩu | thao123@@ |
 
 ## Trải nghiệm trong 5 phút
 
@@ -401,7 +401,5 @@ public/images/                  Ảnh sản phẩm, chứng nhận, vùng nguyê
 
 | Họ tên | Vai trò |
 |---|---|
-| [điền] | [điền] |
-| [điền] | [điền] |
-
-Liên hệ: [điền email hoặc số điện thoại]
+| Đinh Nguyễn Tường Nhi | Nhóm trưởng |
+| Hoàng Phương Thảo | Thành viên |
