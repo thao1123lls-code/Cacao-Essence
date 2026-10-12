@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { useShop } from './ShopContext'
 
-const FB_URL = 'https://www.facebook.com/cacaobungo/'
+const FB_URL = 'https://web.facebook.com/cacao.trongduc.7'
 const YT_ID = 'jhjVvstbUmQ'
 const YT_START = 8 // giây
 
