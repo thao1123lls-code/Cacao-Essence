@@ -1,0 +1,30 @@
+/* Hộp thoại thêm/sửa sản phẩm + trang lịch sử. Dùng biến màu của .adm (admin.css). */
+.pm-ov{position:fixed;inset:0;background:rgba(42,23,16,.55);display:grid;place-items:center;padding:16px;z-index:60;overflow:auto}
+.pm-box{background:#fff;border-radius:16px;width:min(720px,100%);max-height:92vh;overflow:auto;padding:24px;box-shadow:0 24px 70px rgba(0,0,0,.35);color:var(--ink)}
+.pm-box h2{font-size:22px;margin-bottom:14px}
+.pm-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 14px;margin-bottom:12px}
+.pm-grid .full{grid-column:1/-1}
+.pm-box label{display:block;font-size:13px;font-weight:500;color:var(--mute);margin-bottom:4px}
+.pm-box input[type=text],.pm-box input[type=number],.pm-box select,.pm-box textarea{width:100%;border:1px solid var(--line);border-radius:8px;padding:9px 11px;font:inherit;background:#fff}
+.pm-box textarea{resize:vertical}
+.pm-box details{margin:6px 0 4px}
+.pm-box summary{cursor:pointer;font-weight:600;color:var(--brown);margin:8px 0 12px}
+.pm-chk{display:flex!important;align-items:center;gap:8px;font-size:15px!important;color:var(--ink)!important;cursor:pointer}
+.pm-chk input{width:20px;height:20px}
+.pm-img{display:flex;gap:10px;align-items:center}.pm-img img{width:56px;height:42px;object-fit:cover;border-radius:6px;border:1px solid var(--line)}
+.pm-err{margin:8px 0 0;font-weight:500}.pm-hint{margin:10px 0 0;font-size:13px;color:var(--mute)}
+.pm-act{display:flex;gap:8px;justify-content:flex-end;margin-top:14px}
+.pm-row{display:flex;gap:6px;flex-wrap:nowrap;align-items:center}
+.pm-row .adm-btn{padding:6px 12px;font-size:13px;white-space:nowrap}
+.adm-btn.red{background:#b3261e}
+.adm-head .pm-tools{display:flex;gap:8px;flex-wrap:wrap}
+a.adm-btn{display:inline-block}
+
+/* Trang lịch sử */
+.hist-badge{display:inline-block;color:#fff;font-size:12px;font-weight:600;padding:3px 10px;border-radius:99px;white-space:nowrap}
+.hist-list{margin:0;padding-left:16px;font-size:13.5px}.hist-list li{margin:2px 0}
+.hist-from{color:var(--mute);text-decoration:line-through}.hist-to{font-weight:600;color:var(--brown)}
+.hist-sum{font-size:13.5px;color:var(--mute)}
+.hist-pid{color:var(--mute);font-size:12.5px}
+.hist-chip{display:inline-flex;gap:8px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:99px;padding:5px 6px 5px 14px;font-size:14px;margin-bottom:14px}
+@media(max-width:700px){.pm-grid{grid-template-columns:1fr}}
