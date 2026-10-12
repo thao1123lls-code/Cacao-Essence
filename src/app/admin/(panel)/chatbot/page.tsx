@@ -17,6 +17,7 @@ export default async function ChatbotPage() {
   const rest = logs.filter((x) => !(x.handoff && !x.resolved)).slice(0, 30)
 
   return (
+    
     <>
       <div className="adm-head"><h1>Huấn luyện chatbot</h1></div>
       <p style={{ color: 'var(--mute)', marginTop: -8, maxWidth: 780 }}>
