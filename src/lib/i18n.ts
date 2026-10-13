@@ -24,7 +24,7 @@ export const T: Record<Lang, any> = {
   "js5_t": "Thành món quà",
   "js5_p": "Mỗi thanh sô-cô-la Bungo, mỗi gói bột Vinchoco được đóng gói cẩn thận, sẵn sàng thành hộp quà mang bản sắc Đồng Nai.",
   "gb_h": "Tự tay đóng hộp quà",
-  "gb_s": "Chọn tối đa 7 thanh sô-cô-la Bungo, viết lời chúc lên thiệp, và Cacao Origin sẽ gói thành hộp quà riêng của bạn.",
+  "gb_s": "Chọn tối đa 7 thanh sô-cô-la Bungo, viết lời chúc lên thiệp, và Cacao Essence sẽ gói thành hộp quà riêng của bạn.",
   "gb_pick": "Chọn hương vị",
   "gb_msg": "Lời chúc trên thiệp",
   "gb_total": "Tạm tính",
@@ -112,7 +112,7 @@ export const T: Record<Lang, any> = {
    "Hỗ trợ bằng tiếng Anh",
    "Giá & giao hàng"
   ],
-  "hi": "Xin chào! Mình là trợ lý Cacao Origin. Mình giúp bạn chọn quà, gợi ý combo và đặt hàng ngay trong khung chat này. Bạn đang tìm quà cho ai?",
+  "hi": "Xin chào! Mình là trợ lý Cacao Essence. Mình giúp bạn chọn quà, gợi ý combo và đặt hàng ngay trong khung chat này. Bạn đang tìm quà cho ai?",
   "gift": "Về quà tặng, sô-cô-la Bungo gọn, dễ tặng và có dòng đạt OCOP. Nếu cần hộp quà sang hơn, có Hộp sô-cô-la hạt bàng (báo giá theo yêu cầu). Bạn tặng đối tác, người thân hay đồng nghiệp?",
   "combo": "Mình gợi ý 3 combo:\n• Thưởng thức sô-cô-la: Đắng + Gừng + Cà phê (92.000đ)\n• Pha chế tại nhà: Bột nguyên chất 250g + Bột 3 in 1 250g (165.000đ)\n• Cả nhà dùng lâu: Bột 3 in 1 1kg + Bột sữa dừa 500g (388.000đ)\nBạn thích combo nào?",
   "price": "Giá từ 30.000đ (sô-cô-la) đến 220.000đ (bột cacao 3 in 1, 1kg). Giao hàng 0,5 ngày tại TPHCM, 2–5 ngày với khu vực ngoại thành.",
@@ -148,7 +148,7 @@ export const T: Record<Lang, any> = {
   "js5_t": "Become a gift",
   "js5_p": "Every Bungo chocolate bar and Vinchoco powder pack is carefully packed, ready to become a gift with Dong Nai character.",
   "gb_h": "Build your own gift box",
-  "gb_s": "Pick up to 7 Bungo chocolate bars, write a message on the card, and Cacao Origin will pack it as your own gift box.",
+  "gb_s": "Pick up to 7 Bungo chocolate bars, write a message on the card, and Cacao Essence will pack it as your own gift box.",
   "gb_pick": "Choose flavors",
   "gb_msg": "Card message",
   "gb_total": "Subtotal",
@@ -236,7 +236,7 @@ export const T: Record<Lang, any> = {
    "Hỗ trợ tiếng Việt",
    "Price & delivery"
   ],
-  "hi": "Hello! I’m the Cacao Origin assistant. I can help you pick a gift, suggest combos and place the order right here. Who is the gift for?",
+  "hi": "Hello! I’m the Cacao Essence assistant. I can help you pick a gift, suggest combos and place the order right here. Who is the gift for?",
   "gift": "For gifts, Bungo chocolate is compact and easy to give, and one bar is OCOP-certified. For something grander there is the Tropical Almond Chocolate Gift Box (quote on request). Is it for a partner, family or colleague?",
   "combo": "Three combos:\n• Chocolate tasting: Dark + Ginger + Coffee (92,000₫)\n• Home drinks: Pure powder 250g + 3-in-1 250g (165,000₫)\n• Whole family: 3-in-1 1kg + Coconut Milk 500g (388,000₫)\nWhich suits you?",
   "price": "Prices range from 30,000₫ (chocolate) to 220,000₫ (3-in-1 powder, 1kg). Delivery takes 0.5 days in Ho Chi Minh City and 2–5 days for outer areas.",
@@ -262,7 +262,7 @@ export const CO: Record<Lang, any> = {
   "go": "Xác nhận đặt hàng",
   "err": "Vui lòng nhập họ tên, số điện thoại hợp lệ và địa chỉ giao hàng.",
   "ok": "Cảm ơn bạn! Mã đơn của bạn là",
-  "ok2": "Cacao Origin sẽ liên hệ xác nhận sớm.",
+  "ok2": "Cacao Essence sẽ liên hệ xác nhận sớm.",
   "tot": "Tổng cộng"
  },
  "en": {
@@ -276,7 +276,7 @@ export const CO: Record<Lang, any> = {
   "go": "Confirm order",
   "err": "Please enter your name, a valid phone number and delivery address.",
   "ok": "Thank you! Your order number is",
-  "ok2": "Cacao Origin will contact you shortly to confirm.",
+  "ok2": "Cacao Essence will contact you shortly to confirm.",
   "tot": "Total"
  }
 }

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     url: '/',
     title: SITE_TITLE,
     description: SITE_DESC,
-    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: 'Cacao Origin – Bột cacao Vinchoco và sô-cô-la Bungo', type: 'image/jpeg' }],
+    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: 'Cacao Essence – Bột cacao Vinchoco và sô-cô-la Bungo', type: 'image/jpeg' }],
   },
   twitter: { card: 'summary_large_image', title: SITE_TITLE, description: SITE_DESC, images: [OG_IMAGE] },
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, 'max-image-preview': 'large' } },

@@ -40,6 +40,6 @@ export default function Cacao3D() {
     }
   }, [])
 
-  if (failed) return <img src="/images/logo.webp" alt="Trọng Đức Cacao – Tinh hoa từ đất Việt" />
+  if (failed) return <img src="/images/logo.webp" alt="Cacao Essence – Tinh hoa cacao, dấu ấn thương hiệu" />
   return <canvas className="cv3d" ref={ref} role="img" aria-label="Túi bột cacao Trọng Đức 3D xoay cùng những hạt cacao" />
 }

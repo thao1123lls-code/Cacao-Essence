@@ -24,7 +24,7 @@ export default function LoginPage() {
   return (
     <div className="adm adm-center">
       <form className="adm-box" onSubmit={submit}>
-        <h1>Cacao Origin</h1>
+        <h1>Cacao Essence</h1>
         <p>Đăng nhập khu vực quản trị</p>
         <label htmlFor="em">Email</label>
         <input id="em" type="email" autoComplete="username" required value={email} onChange={(e) => setEmail(e.target.value)} />

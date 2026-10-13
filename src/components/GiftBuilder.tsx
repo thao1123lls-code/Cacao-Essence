@@ -43,7 +43,7 @@ export default function GiftBuilder() {
               ))}
             </div>
             <p className="hint">{t('gb_hint')}</p>
-            <div className="gcard"><p>{preview}</p><small>Cacao Origin</small></div>
+            <div className="gcard"><p>{preview}</p><small>Cacao Essence</small></div>
           </div>
           <div className="gr">
             <h4>{t('gb_pick')}</h4>

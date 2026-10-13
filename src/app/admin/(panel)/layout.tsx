@@ -36,7 +36,7 @@ export default async function PanelLayout({ children }: { children: React.ReactN
   }
   return (
     <div className="adm">
-      <div className="adm-top"><b>Cacao Origin · Quản trị</b><span>{s.email}</span><Link href="/" className="adm-ghost">Xem cửa hàng</Link><SignOut /></div>
+      <div className="adm-top"><b>Cacao Essence · Quản trị</b><span>{s.email}</span><Link href="/" className="adm-ghost">Xem cửa hàng</Link><SignOut /></div>
       <AdminNav />
       <main className="adm-main">{children}</main>
       <RealtimeRefresh />

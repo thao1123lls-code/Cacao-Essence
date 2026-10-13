@@ -68,8 +68,8 @@ export function Header() {
     <header className={stuck ? 'stuck' : ''}>
       <div className="wrap">
         <Link className="brand" href={to('#top')}>
-          <img src="/images/emb.webp" alt="Logo Trọng Đức Cacao" />
-          <span><b>Cacao Origin</b><small>Trọng Đức Cacao</small></span>
+          <img src="/images/emb.webp" alt="Logo Cacao Essence" />
+          <span><b>Cacao Essence</b><small>Trọng Đức Cacao</small></span>
         </Link>
         <nav id="nav" className={ui.nav ? 'open' : ''} onClick={(e) => (e.target as HTMLElement).tagName === 'A' && setUi({ nav: false })}>
           {NAV.map(([href, k]) => <Link key={href} href={to(href)}>{t(k)}</Link>)}
@@ -102,7 +102,7 @@ export function Hero() {
       <div className="wrap">
         <div>
           <span className="pill">Sản phẩm OCOP · Đồng Nai</span>
-          <h1>Cacao Origin<span>Bản sắc từ hạt đến quà</span></h1>
+          <h1>Cacao Essence<span>Tinh hoa cacao, dấu ấn thương hiệu</span></h1>
           <p className="lead">Từ vườn cacao Đồng Nai đến bột cacao Vinchoco và sô-cô-la Bungo. Vị đậm đà, mộc mạc và nguyên bản, để thưởng thức hay làm quà tặng.</p>
           <a className="btn" href="#products">Mua ngay</a>
           <a className="btn ghost" href="#journey">Khám phá</a>
@@ -129,7 +129,7 @@ export function Hero() {
 const RIBBONS = {
   a: [
     ['NGUYÊN BẢN', 'ĐỒNG NAI', 'SẢN PHẨM OCOP', 'TỪ HẠT ĐẾN QUÀ', 'TINH HOA TỪ ĐẤT VIỆT'],
-    ['Cacao Origin', 'Vinchoco', 'Bungo', 'Trọng Đức Cacao', 'Since 2005'],
+    ['Cacao Essence', 'Vinchoco', 'Bungo', 'Trọng Đức Cacao', 'Since 2005'],
   ],
   b: [
     ['VỊ ĐẬM ĐÀ', 'MỘC MẠC', 'NGUYÊN CHẤT', 'LÀM QUÀ TẶNG', 'HƯƠNG CACAO ĐỒNG NAI'],
@@ -353,8 +353,8 @@ export function Footer() {
         </div>
       </div>
       <div className="wrap fb">
-        <img src="/images/logo.webp" alt="Trọng Đức Cacao" />
-        <span>© 2026 Cacao Origin · Công ty TNHH Cacao Trọng Đức, Đồng Nai</span>
+        <img src="/images/logo.webp" alt="Cacao Essence" />
+        <span>© 2026 Cacao Essence · Công ty TNHH Cacao Trọng Đức, Đồng Nai</span>
         <a href="/admin" className="adl">Quản trị</a>
       </div>
     </footer>

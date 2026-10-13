@@ -1,11 +1,13 @@
 <div align="center">
 
-<img src="public/images/og-cover.jpg" alt="Cacao Origin · Trọng Đức Cacao" width="100%">
+<img src="public/images/og-cover.jpg" alt="Cacao Essence · Trọng Đức Cacao" width="100%">
 
-<h1>Cacao Origin · Trọng Đức Cacao</h1>
+<h1>Cacao Essence · Trọng Đức Cacao</h1>
+
+<p><i>Tinh hoa cacao, dấu ấn thương hiệu</i></p>
 
 <p><b>Website bán hàng song ngữ Việt/Anh kèm hệ thống quản trị<br>
-cho Công ty TNHH Cacao Trọng Đức (Đồng Nai), thương hiệu bột cacao Vinchoco và sô-cô-la Bungo.</b></p>
+cho Công ty TNHH Cacao Trọng Đức (Đồng Nai), thương hiệu Cacao Essence với bột cacao Vinchoco và sô-cô-la Bungo.</b></p>
 
 <p>
   <img src="https://img.shields.io/badge/Next.js-14-000000?logo=nextdotjs&logoColor=white" alt="Next.js 14">
@@ -40,7 +42,7 @@ cho Công ty TNHH Cacao Trọng Đức (Đồng Nai), thương hiệu bột caca
 
 ## Giới thiệu
 
-**Bối cảnh.** Cacao Trọng Đức đồng hành cùng nông dân Đồng Nai từ năm 2005 và có nhiều chứng nhận (OCOP, sản phẩm công nghiệp nông thôn tiêu biểu, ISO 22000). Công ty cần một nơi để khách hàng **thấy được nguồn gốc và chứng nhận của sản phẩm**, **đặt hàng trực tuyến**, và để chủ cửa hàng **quản lý đơn hàng, khách hàng, sản phẩm** mà không phải dùng sổ sách hay bảng tính rời rạc.
+**Bối cảnh.** Cacao Trọng Đức đồng hành cùng nông dân Đồng Nai từ năm 2005 và có nhiều chứng nhận (OCOP, sản phẩm công nghiệp nông thôn tiêu biểu, ISO 22000). **Cacao Essence** là thương hiệu bán hàng trực tuyến của công ty. Công ty cần một nơi để khách hàng **thấy được nguồn gốc và chứng nhận của sản phẩm**, **đặt hàng trực tuyến**, và để chủ cửa hàng **quản lý đơn hàng, khách hàng, sản phẩm** mà không phải dùng sổ sách hay bảng tính rời rạc.
 
 **Giải pháp.** Một ứng dụng web gồm hai phần dùng chung một cơ sở dữ liệu:
 
@@ -272,7 +274,15 @@ Tạo dự án miễn phí tại [supabase.com](https://supabase.com), vào **SQ
 
 ### Bước 3. Khai báo khóa
 
-Sao chép `.env.example` thành `.env.local` (Windows: `copy .env.example .env.local`), bỏ dấu `#` ở các dòng cần dùng và điền giá trị lấy ở **Project Settings → API**:
+Tạo file `.env.local` ở thư mục gốc dự án (cùng cấp với `package.json`), điền các giá trị lấy ở **Project Settings → API**:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=https://xxxxxxxx.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=khoa-anon-public-cua-ban
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
+# Tùy chọn, bật chatbot trả lời bằng AI:
+# ANTHROPIC_API_KEY=khoa-cua-ban
+```
 
 | Biến | Ý nghĩa | Bắt buộc |
 |---|---|:---:|
@@ -369,7 +379,7 @@ src/app/api/                    API chatbot và form liên hệ
 src/components/                 Giao diện cửa hàng (3D, hộp quà, chứng nhận, chatbot...)
 src/components/admin/           Biểu đồ và thành phần quản trị
 src/lib/                        Kiểu dữ liệu, song ngữ, thống kê, kho kiến thức chatbot
-public/images/                  Ảnh sản phẩm, chứng nhận, vùng nguyên liệu
+public/images/                  Logo, bao bì, ảnh sản phẩm, chứng nhận, vùng nguyên liệu
 ```
 
 </details>
@@ -403,5 +413,3 @@ public/images/                  Ảnh sản phẩm, chứng nhận, vùng nguyê
 |---|---|
 | Đinh Nguyễn Tường Nhi | Nhóm trưởng |
 | Hoàng Phương Thảo | Thành viên |
-
-
